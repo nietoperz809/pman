@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\convgrp.c" />
+    <ClCompile Include="..\..\hotkey.c" />
+    <ClCompile Include="..\..\missing.c" />
+    <ClCompile Include="..\..\notify.c" />
+    <ClCompile Include="..\..\pmcomman.c" />
+    <ClCompile Include="..\..\pmdde.c" />
+    <ClCompile Include="..\..\pmdlgs.c" />
+    <ClCompile Include="..\..\pmdos.c" />
+    <ClCompile Include="..\..\pmgroup.c" />
+    <ClCompile Include="..\..\pmgseg.c" />
+    <ClCompile Include="..\..\pminit.c" />
+    <ClCompile Include="..\..\pmwprocs.c" />
+    <ClCompile Include="..\..\progman.c" />
+    <ClCompile Include="..\..\secdesc.c" />
+    <ClCompile Include="..\..\security.c" />
+    <ClCompile Include="..\..\shutdown.c" />
+    <ClCompile Include="..\..\taskman.c" />
+    <ClCompile Include="..\..\uniconv.c" />
+    <ClCompile Include="..\..\unicrt.c" />
+    <ClCompile Include="..\..\unifile.c" />
+    <ClCompile Include="..\..\util.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\convgrp.h" />
+    <ClInclude Include="..\..\notify.h" />
+    <ClInclude Include="..\..\pmdlg.h" />
+    <ClInclude Include="..\..\pmhelp.h" />
+    <ClInclude Include="..\..\pmreg.h" />
+    <ClInclude Include="..\..\progman.h" />
+    <ClInclude Include="..\..\sec.h" />
+    <ClInclude Include="..\..\secdesc.h" />
+    <ClInclude Include="..\..\security.h" />
+    <ClInclude Include="..\..\shutdown.h" />
+    <ClInclude Include="..\..\taskman.h" />
+    <ClInclude Include="..\..\util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\common.ico" />
+    <Image Include="..\..\console.ico" />
+    <Image Include="..\..\icons\contain\brfcase.ico" />
+    <Image Include="..\..\icons\contain\chest.ico" />
+    <Image Include="..\..\icons\contain\door.ico" />
+    <Image Include="..\..\icons\contain\exit.ico" />
+    <Image Include="..\..\icons\contain\handbag.ico" />
+    <Image Include="..\..\icons\contain\lenvel.ico" />
+    <Image Include="..\..\icons\contain\mailbox.ico" />
+    <Image Include="..\..\icons\contain\paperbag.ico" />
+    <Image Include="..\..\icons\contain\safe.ico" />
+    <Image Include="..\..\icons\contain\senvel.ico" />
+    <Image Include="..\..\icons\contain\tacklbox.ico" />
+    <Image Include="..\..\icons\hyper\alert.ico" />
+    <Image Include="..\..\icons\hyper\back.ico" />
+    <Image Include="..\..\icons\hyper\begin.ico" />
+    <Image Include="..\..\icons\hyper\car.ico" />
+    <Image Include="..\..\icons\hyper\darrow.ico" />
+    <Image Include="..\..\icons\hyper\end.ico" />
+    <Image Include="..\..\icons\hyper\exit.ico" />
+    <Image Include="..\..\icons\hyper\fastfwrd.ico" />
+    <Image Include="..\..\icons\hyper\forward.ico" />
+    <Image Include="..\..\icons\hyper\handl.ico" />
+    <Image Include="..\..\icons\hyper\handr.ico" />
+    <Image Include="..\..\icons\hyper\handstop.ico" />
+    <Image Include="..\..\icons\hyper\help.ico" />
+    <Image Include="..\..\icons\hyper\larrow.ico" />
+    <Image Include="..\..\icons\hyper\rarrow.ico" />
+    <Image Include="..\..\icons\hyper\record.ico" />
+    <Image Include="..\..\icons\hyper\rewinde.ico" />
+    <Image Include="..\..\icons\hyper\stop1.ico" />
+    <Image Include="..\..\icons\hyper\stop2.ico" />
+    <Image Include="..\..\icons\hyper\uarrow.ico" />
+    <Image Include="..\..\icons\objects\arttools.ico" />
+    <Image Include="..\..\icons\objects\barchart.ico" />
+    <Image Include="..\..\icons\objects\bunny.ico" />
+    <Image Include="..\..\icons\objects\camera.ico" />
+    <Image Include="..\..\icons\objects\cd.ico" />
+    <Image Include="..\..\icons\objects\charts.ico" />
+    <Image Include="..\..\icons\objects\clapbrd.ico" />
+    <Image Include="..\..\icons\objects\draft.ico" />
+    <Image Include="..\..\icons\objects\fancydoc.ico" />
+    <Image Include="..\..\icons\objects\filmstrp.ico" />
+    <Image Include="..\..\icons\objects\graph.ico" />
+    <Image Include="..\..\icons\objects\hndshake.ico" />
+    <Image Include="..\..\icons\objects\knife.ico" />
+    <Image Include="..\..\icons\objects\letters.ico" />
+    <Image Include="..\..\icons\objects\mona.ico" />
+    <Image Include="..\..\icons\objects\monitor.ico" />
+    <Image Include="..\..\icons\objects\music.ico" />
+    <Image Include="..\..\icons\objects\news.ico" />
+    <Image Include="..\..\icons\objects\phonbook.ico" />
+    <Image Include="..\..\icons\objects\phone.ico" />
+    <Image Include="..\..\icons\objects\plaindoc.ico" />
+    <Image Include="..\..\icons\objects\remote.ico" />
+    <Image Include="..\..\icons\objects\spredsht.ico" />
+    <Image Include="..\..\icons\objects\sticky.ico" />
+    <Image Include="..\..\icons\objects\tape.ico" />
+    <Image Include="..\..\icons\objects\typewrit.ico" />
+    <Image Include="..\..\msdos.ico" />
+    <Image Include="..\..\personal.ico" />
+    <Image Include="..\..\pmcomm.ico" />
+    <Image Include="..\..\pmdata.ico" />
+    <Image Include="..\..\pmgroup.ico" />
+    <Image Include="..\..\pmitem.ico" />
+    <Image Include="..\..\pmsheet.ico" />
+    <Image Include="..\..\pmword.ico" />
+    <Image Include="..\..\progman.ico" />
+    <Image Include="..\..\windows.ico" />
+    <Image Include="..\..\winoldap.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\progmn.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{FF33FE7D-5234-42C1-86CF-48C533033AC2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>pman</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRTAPI1=_cdecl;WIN32;NDEBUG;_MBCS;_X86_;LFN;STRICT;FASTMOVE;LFNCLIPBOARD;W3;UNICODE;USELASTDOT;MEMDOUBLE;WINVER=0x0400;_VC80_UPGRADE=0x0600;_UNICODE;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile />
+      <AdditionalIncludeDirectories>C:\lib\inc</AdditionalIncludeDirectories>
+      <CallingConvention>StdCall</CallingConvention>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>user32p.lib;pwin32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32_1.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;ntdll.lib;snmp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>c:\lib</AdditionalLibraryDirectories>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:\lib\inc</AdditionalIncludeDirectories>
+      <Culture>0x0407</Culture>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

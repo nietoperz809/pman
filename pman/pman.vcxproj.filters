@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\convgrp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hotkey.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\notify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pmcomman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pmdde.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pmdlgs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pmdos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pmgroup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pmgseg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pminit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pmwprocs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\progman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\secdesc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\security.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shutdown.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\taskman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uniconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\unifile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\unicrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\missing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\convgrp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\notify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pmdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pmhelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pmreg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\progman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\secdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\security.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shutdown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\taskman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\common.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\console.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\msdos.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\personal.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\pmcomm.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\pmdata.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\pmgroup.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\pmitem.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\pmsheet.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\pmword.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\progman.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\windows.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\winoldap.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\contain\brfcase.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\contain\chest.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\contain\door.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\contain\exit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\contain\handbag.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\contain\lenvel.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\contain\mailbox.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\contain\paperbag.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\contain\safe.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\contain\senvel.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\contain\tacklbox.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\alert.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\back.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\begin.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\car.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\darrow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\end.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\exit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\fastfwrd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\forward.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\handl.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\handr.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\handstop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\help.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\larrow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\rarrow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\record.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\rewinde.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\stop1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\stop2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\hyper\uarrow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\arttools.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\barchart.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\bunny.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\camera.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\cd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\charts.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\clapbrd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\draft.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\fancydoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\filmstrp.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\graph.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\hndshake.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\knife.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\letters.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\mona.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\monitor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\music.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\news.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\phonbook.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\phone.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\plaindoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\remote.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\spredsht.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\sticky.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\tape.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\icons\objects\typewrit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\progmn.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
